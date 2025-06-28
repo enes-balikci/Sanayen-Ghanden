@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f8f8f8;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #111;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.collections, .about, .contact {
+  padding: 4rem 2rem;
+}
+
+.grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1;
+  padding: 4rem;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
